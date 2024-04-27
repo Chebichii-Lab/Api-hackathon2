@@ -22,11 +22,11 @@ body {
 }
 
 .card:nth-child(odd) {
-  transform: perspective(1000px) rotateY(10deg); /* Apply skew transformation for odd-indexed cards */
+  transform: perspective(1000px) rotateY(10deg); 
 }
 
 .card:nth-child(even) {
-  transform: perspective(1000px) rotateY(-10deg); /* Apply skew transformation for even-indexed cards */
+  transform: perspective(1000px) rotateY(-10deg); 
 }
 
 .card {
@@ -34,9 +34,9 @@ body {
   padding: 30px;
   border: 1px solid #ccc;
   border-radius: 10px;
-  background-color: rgba(249, 249, 249, 0.8); /* Set default transparent background */
-  transition: background-color 0.3s, box-shadow 0.3s; /* Add smooth transition effect */
-  opacity: 0.8; /* Set default opacity */
+  background-color: rgba(249, 249, 249, 0.8); 
+  transition: background-color 0.3s, box-shadow 0.3s; 
+  opacity: 0.8; 
   margin-right: 30px;
   overflow: hidden;
   transform: perspective(1000px) rotateY(10deg);
@@ -44,8 +44,8 @@ body {
 }
 
 .card:hover {
-  background-color: #f9f9f9; /* Set solid background color on hover */
-  opacity: 1; /* Set full opacity on hover */
+  background-color: #f9f9f9; 
+  opacity: 1; 
   transform: perspective(1000px) rotateY(0deg) translateY(-10px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
@@ -97,19 +97,19 @@ body {
 
 @keyframes fadeIn {
   from {
-      opacity: 0; /* Start opacity */
+      opacity: 0; 
   }
   to {
-      opacity: 1; /* End opacity */
+      opacity: 1; 
   }
 }
 
 @keyframes bounce {
   0%, 100% {
-      transform: translateY(0); /* Start and end position */
+      transform: translateY(0); 
   }
   50% {
-      transform: translateY(-20px); /* Midway position */
+      transform: translateY(-20px); 
   }
 }
 
